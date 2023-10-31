@@ -26,7 +26,7 @@ if(isset($_SESSION["user"]) && isset($_SESSION["permisos"])){
                 var tam = document.forms["campos"]["tam"].value;
                 var precio = document.forms["campos"]["precio"].value;
 
-                console.log(nombre+", "+ anime+", "+tam+", "+precio)
+                console.log(nombres+", "+ anime+", "+tam+", "+precio)
                 $mensaje = "";
 
                 if (isNaN(precio)) {
